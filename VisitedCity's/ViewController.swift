@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        city = City(name: "Monterrey", foundation: "20 de septiembre del 1596", poblation: 41000500, country: "Mexico", image: #imageLiteral(resourceName: "Monterrey"), color: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1))
+        city = City(name: "Monterrey", foundation: "20 de septiembre del 1596", poblation: 41000000, country: "Mexico", image: #imageLiteral(resourceName: "Monterrey"), color: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1))
         cities.append(city)
         
         city = City(name: "San Francisco", foundation: "29 de junio del 1776", poblation: 864816, country: "Estados Unidos", image: #imageLiteral(resourceName: "San Francisco"), color: #colorLiteral(red: 1, green: 0.7741118238, blue: 0.3923542107, alpha: 1))
