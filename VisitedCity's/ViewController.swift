@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         city = City(name: "Washington D.C.", foundation: "16 de julio de 1790", poblation: 658893, country: "Estados Unidos", image: #imageLiteral(resourceName: "Washington"), color: #colorLiteral(red: 0.4329445382, green: 0.7821732533, blue: 1, alpha: 1))
         cities.append(city)
         
-        city = City(name: "New York", foundation: "1624", poblation: 8538000, country: "Estados Unidos", image: #imageLiteral(resourceName: "New York"), color: #colorLiteral(red: 0.1136630756, green: 0.3706330945, blue: 1, alpha: 1))
+        city = City(name: "New York", foundation: "1624", poblation: 8538000, country: "Estados Unidos", image: #imageLiteral(resourceName: "New York"), color: #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1))
         cities.append(city)
         
         updateView()
